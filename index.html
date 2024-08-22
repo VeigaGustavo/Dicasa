@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Di Casa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/di_casa.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/di_casa.png" alt="Logotipo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Cardápio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="principal">
+        <div class="overlay">
+            <div class="linha">
+                <h1><span style="color: #f8eac1;">Di Casa</span> Restaurante</h1>
+                <p>Sua melhor escolha de todos os dias!</p>
+            </div>
+        </div>
+    </section>    
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre o <span style="color: #176855;">Di Casa</span></h2>
+            <p>Nosso restaurante é um refúgio acolhedor que celebra a tradição e o conforto das refeições em família. Desde sua fundação, nossa missão tem sido oferecer uma experiência culinária que honra receitas tradicionais, utilizando ingredientes frescos e de alta qualidade.<br> <br>
+                O ambiente é pensado para criar uma atmosfera nostálgica e familiar, perfeita para reunir entes queridos ao redor de uma mesa farta. Cada detalhe da decoração remete à simplicidade e ao calor das casas de antigamente.
+                <br> <br>
+                Oferecemos não apenas uma experiência gastronômica memorável, mas também um atendimento caloroso e personalizado, para que cada visita se sinta como parte de nossa família. Descubra o verdadeiro sabor da culinária caseira e compartilhe momentos especiais conosco.</p>
+        </div>
+    </section>
+    <section id="servicos" class="cardapio">
+        <div class="container">
+            <h2 >Nosso <span style="color: #176855;">Cardápio</span></h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/salada.webp" alt="Prato 1">
+                    <h3>Salda Tropical</h3>
+                    <p>A salada tropical mistura folhas verdes com frutas frescas, como manga e abacaxi, resultando em um prato leve e refrescante.</p>
+                </div>
+                <div class="card">
+                    <img src="images/parmigiana.jpg" alt="Prato 2">
+                    <h3>Pollo alla Parmigiana</h3>
+                    <p>Frango empanado ao molho de tomate caseiro, coberto com queijo derretido e acompanhado de purê de batatas.</p>
+                </div>
+                <div class="card">
+                    <img src="images/bolinho.png" alt="Prato 3">
+                    <h3>Bolinho de Carne</h3>
+                    <p>Bolinho de carne é um petisco feito de carne moída temperada, moldada em pequenas esferas e frita até ficar dourada e crocante por fora, mantendo-se suculenta por dentro.</p>
+                </div>
+                <div class="card">
+                    <img src="images/galinhada.avif" alt="Prato 4">
+                    <h3>Galinhada</h3>
+                    <p>Tradicional de Goiás e Minas Gerais, combina arroz e frango cozidos com temperos, resultando em um prato simples e saboroso.</p>
+                </div>
+                <div class="card">
+                    <img src="images/panelinha.webp" alt="Prato 5">
+                    <h3>Panelinha</h3>
+                    <p>Prato típico do Tocantins, feito com arroz, carnes variadas e legumes, cozidos juntos em uma panela só.</p>
+                </div>
+                <div class="card">
+                    <img src="images/feijoada.avif" alt="Prato 6">
+                    <h3>Feijoada Tradicinal</h3>
+                    <p>A feijoada é um prato típico brasileiro feito com feijão preto e carnes de porco, servido com arroz, farofa, couve e laranja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input placeholder="Digite seu nome" type="text" id="nome" name="nome" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input placeholder="email@exemplo.com" type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea placeholder="Digite sua mensagem" id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Siga-nos nas redes sociais:</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/dicasarestaurante_/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/dicasarestaurante_/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=63992481756"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+            <p>&copy; 2024 Di Casa Restaurante. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
